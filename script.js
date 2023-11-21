@@ -8,9 +8,11 @@ export function aufgabe01(args) {
       result.push(currentElement) 
     }
   
-  
   }
   return result.join("")
+}
 
-
+export function aufgabe02(args) {
+  const input = args 
+  return input.toUpperCase();
 }
