@@ -66,5 +66,6 @@ export function aufgabe06(args) {
 }
 
 export function aufgabe07(args) {
-
+     
+  return args.toLowerCase().includes('')
 }
