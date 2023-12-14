@@ -69,3 +69,13 @@ export function aufgabe07(args) {
      
   return args.toLowerCase().includes('')
 }
+
+
+
+export function aufgabe08(inputString) {
+ 
+  const replacedString = inputString.replace(/e/g, '3').replace(/E/g, 'E');
+ 
+  return replacedString;
+}
+
